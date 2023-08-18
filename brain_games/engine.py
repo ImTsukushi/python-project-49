@@ -1,4 +1,5 @@
 import prompt
+from random import randint
 
 
 def welcome_user(task):
@@ -24,3 +25,17 @@ def end_of_game(score, name):
     if score == 3:
         print(f'Congratulations {name}!')
         exit()
+
+
+def random_progression():
+    first_number = randint(1, 20)
+    progression_step = randint(2, 5)
+    hidden_number = randint(0, 9)
+    progression = []
+    for i in range(10):
+        progression.append(str(first_number))
+        first_number += progression_step
+    correct_answer = progression[hidden_number]
+    progression[hidden_number] = '..'
+    progression = ' '.join(progression)
+    return progression, correct_answer
