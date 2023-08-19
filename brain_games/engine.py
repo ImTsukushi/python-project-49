@@ -20,5 +20,5 @@ def brain_main(game):
             )
             exit()
     if score == 3:
-        print(f'Congratulations {name}!')
+        print(f'Congratulations, {name}!')
         exit()
