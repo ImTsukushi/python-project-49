@@ -1,12 +1,10 @@
 #!/usr/bin/env python3
-from brain_games.games import brain_progression
-
-brain_progression()
+from brain_games.games import progression
+from brain_games.engine import brain_main
 
 
 def main():
-    TASK = 'What number is missing in the progression?'
-    brain_progression()
+    brain_main(progression)
 
 
 if __name__ == '__main__':

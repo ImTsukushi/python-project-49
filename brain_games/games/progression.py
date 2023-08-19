@@ -1,14 +1,19 @@
-from brain_games import welcome_gamer
-from brain_games import is_correct_answer
-from brain_games import end_of_game
-from brain_games import random_progression
+from random import randint
+
+TASK = 'What number is missing in the progression?'
 
 
-def brain_progression():
-    TASK = 'What number is missing in the progression?'
-    name, score = welcome_gamer(TASK)
-    while score < 3:
-        progression, correct_answer = random_progression()
-        print(f'Question: {progression}')
-        score = is_correct_answer(correct_answer, score)
-    end_of_game(score, name)
+def get_game_data():
+    first_number = randint(1, 20)
+    progression_step = randint(2, 5)
+    hidden_number = randint(0, 9)
+    progression = []
+    # Создаем прогрессию длинной 10 чисел
+    for i in range(10):
+        progression.append(str(first_number))
+        first_number += progression_step
+    correct_answer = progression[hidden_number]
+    progression[hidden_number] = '..'
+    progression = ' '.join(progression)
+    print(f'Question: {progression}')
+    return correct_answer
