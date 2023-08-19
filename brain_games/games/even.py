@@ -1,6 +1,6 @@
 from random import randint
 
-TASK = 'Answer "yes" if the nuber is even, otherwise answer "no".'
+TASK = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def get_game_data():
