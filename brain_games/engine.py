@@ -2,7 +2,8 @@ import prompt
 from random import randint
 
 
-# Приветственное сообщение, запрашиваем имя, выводим условие игры, назначаем счет
+# Приветственное сообщение, запрашиваем имя, выводим условие игры,
+# назначаем счет
 def welcome_gamer(task):
     print("Welcome to the Brain Games!")
     name = prompt.string('May I have your name? ')
@@ -20,7 +21,10 @@ def is_correct_answer(correct_answer, score):
         print('Correct!')
         return score
     else:
-        print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
+        print(
+            f"'{answer}' is wrong answer ;(. "
+            f"Correct answer was '{correct_answer}'."
+        )
         exit()
 
 
