@@ -5,6 +5,7 @@ brain_calc()
 
 
 def main():
+    TASK = 'What is the result of the expression?'
     brain_calc()
 
 

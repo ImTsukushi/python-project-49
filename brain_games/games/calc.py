@@ -6,8 +6,8 @@ from brain_games import end_of_game
 
 
 def brain_calc():
-    task = 'What is the result of the expression?'
-    name, score = welcome_gamer(task)
+    TASK = 'What is the result of the expression?'
+    name, score = welcome_gamer(TASK)
     while score < 3:
         first_int_for_question = randint(1, 50)
         second_int_for_question = randint(1, 50)

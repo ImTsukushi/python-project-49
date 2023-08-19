@@ -6,8 +6,8 @@ from brain_games import is_prime
 
 
 def brain_prime():
-    task = 'Answer "yes" if given number is prime. Otherwise answer "no".'
-    name, score = welcome_gamer(task)
+    TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+    name, score = welcome_gamer(TASK)
     while score < 3:
         int_for_question = randint(1, 50)
         print(f'Question: {int_for_question}')

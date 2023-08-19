@@ -5,6 +5,7 @@ brain_prime()
 
 
 def main():
+    TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'
     brain_prime()
 
 

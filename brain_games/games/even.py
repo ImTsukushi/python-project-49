@@ -5,8 +5,8 @@ from brain_games import end_of_game
 
 
 def brain_even():
-    task = 'Answer "yes" if the nuber is even, otherwise answer "no".'
-    name, score = welcome_gamer(task)
+    TASK = 'Answer "yes" if the nuber is even, otherwise answer "no".'
+    name, score = welcome_gamer(TASK)
     while score < 3:
         int_for_question = randint(1, 50)
         print(f'Question: {int_for_question}')

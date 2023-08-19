@@ -5,6 +5,7 @@ brain_gcd()
 
 
 def main():
+    TASK = 'Find the greatest common divisor of given numbers.'
     brain_gcd()
 
 

@@ -5,8 +5,8 @@ from brain_games import random_progression
 
 
 def brain_progression():
-    task = 'What number is missing in the progression?'
-    name, score = welcome_gamer(task)
+    TASK = 'What number is missing in the progression?'
+    name, score = welcome_gamer(TASK)
     while score < 3:
         progression, correct_answer = random_progression()
         print(f'Question: {progression}')

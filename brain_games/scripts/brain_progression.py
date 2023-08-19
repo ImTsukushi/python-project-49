@@ -5,6 +5,7 @@ brain_progression()
 
 
 def main():
+    TASK = 'What number is missing in the progression?'
     brain_progression()
 
 

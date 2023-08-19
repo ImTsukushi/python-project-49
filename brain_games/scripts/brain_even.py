@@ -5,6 +5,7 @@ brain_even()
 
 
 def main():
+    TASK = 'Answer "yes" if the nuber is even, otherwise answer "no".'
     brain_even()
 
 
