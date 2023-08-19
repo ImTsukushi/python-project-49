@@ -16,7 +16,8 @@ def brain_main(game):
         else:
             print(
                 f"'{answer}' is wrong answer ;(. "
-                f"Correct answer was '{correct_answer}'."
+                f"Correct answer was '{correct_answer}'.\n"
+                f"Let's try again, {name}!"
             )
             exit()
     if score == 3:
