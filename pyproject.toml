@@ -3,7 +3,17 @@ name = "hexlet-code"
 version = "0.1.0"
 description = "5 small brain games"
 authors = ["ImTsukushi <imtsukushi@ya.ru>"]
+repository = "https://github.com/ImTsukushi/python-project-49"
 readme = "README.md"
+classifiers = [
+	"Development Status :: 3 - Alpha"
+	"Environment :: Console"
+	"Framework :: Flake8"
+	"License :: OSI Approved :: MIT License"
+	"Natural Language :: Russian"
+	"Operating System :: POSIX :: Linux"
+	"Programming Language :: Python :: 3.10"
+]
 packages = [
   { include = "brain_games" },
 ]
