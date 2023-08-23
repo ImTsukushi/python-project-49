@@ -23,7 +23,7 @@
 
 ### Примеры запуска игр:  
 #### Brain-even demo
-[![asciicast](https://asciinema.org/a/2pQrZyi2uaHPhVRS82Hif7CJc.png)](https://asciinema.org/a/2pQrZyi2uaHPhVRS82Hif7CJc)  
+[![asciicast](https://asciinema.org/a/pqxiCEZPPUtNkzEE9fs05aYQC.png)](https://asciinema.org/a/pqxiCEZPPUtNkzEE9fs05aYQC)  
 
 #### Brain-calc demo  
 [![asciicast](https://asciinema.org/a/ltD22OV2Qo9dnLBCet1vmTkQp.png)](https://asciinema.org/a/ltD22OV2Qo9dnLBCet1vmTkQp)  
