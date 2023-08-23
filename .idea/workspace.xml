@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efb06800-31b6-4c50-b64a-0f3f0ec3b5d8" name="Changes" comment="" />
+    <list default="true" id="efb06800-31b6-4c50-b64a-0f3f0ec3b5d8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brain_games/engine.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/engine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brain_games/games/calc.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/games/calc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brain_games/games/even.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/games/even.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brain_games/games/gcd.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/games/gcd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brain_games/games/prime.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/games/prime.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brain_games/games/progression.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/games/progression.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

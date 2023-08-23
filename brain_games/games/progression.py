@@ -14,6 +14,5 @@ def get_game_data():
         first_number += progression_step
     correct_answer = progression[hidden_number]
     progression[hidden_number] = '..'
-    progression = ' '.join(progression)
-    print(f'Question: {progression}')
-    return correct_answer
+    question = ' '.join(progression)
+    return correct_answer, question
