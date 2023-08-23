@@ -35,4 +35,4 @@
 [![asciicast](https://asciinema.org/a/BHhYKDpmdFD6Tq6nJbOgpVD0s.png)](https://asciinema.org/a/BHhYKDpmdFD6Tq6nJbOgpVD0s)  
 
 [Brain-prime demo](https://asciinema.org/a/TcyH2vTaXgoLJFOqwY1cAEaix)  
-[![asciicast](https://asciinema.org/a/TcyH2vTaXgoLJFOqwY1cAEaix.png)]https://asciinema.org/a/TcyH2vTaXgoLJFOqwY1cAEaix)  
+[![asciicast](https://asciinema.org/a/TcyH2vTaXgoLJFOqwY1cAEaix.png)](https://asciinema.org/a/TcyH2vTaXgoLJFOqwY1cAEaix)  
