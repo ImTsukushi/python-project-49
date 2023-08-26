@@ -28,16 +28,11 @@ def make_progression_list(first_number, progression_step):
 
 
 # Вычисляем правильный ответ
-def find_correct_answer(progression, hidden_number):
+def get_game_data():
+    first_number, progression_step, hidden_number = create_progression_data()
+    progression = make_progression_list(first_number, progression_step)
     correct_answer = progression[hidden_number]
     progression[hidden_number] = '..'
     question = ' '.join(progression)
     return correct_answer, question
 
-
-# Игра
-def get_game_data():
-    first_number, progression_step, hidden_number = create_progression_data()
-    progression = make_progression_list(first_number, progression_step)
-    correct_answer, question = find_correct_answer(progression, hidden_number)
-    return correct_answer, question
