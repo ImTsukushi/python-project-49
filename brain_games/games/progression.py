@@ -35,4 +35,3 @@ def get_game_data():
     progression[hidden_number] = '..'
     question = ' '.join(progression)
     return correct_answer, question
-
