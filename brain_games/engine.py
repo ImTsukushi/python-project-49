@@ -1,23 +1,18 @@
 import prompt
 
+SCORE_TO_WIN = 3
+
 
 def brain_main(game):
     print("Welcome to the Brain Games!")
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
     print(game.TASK)
-    score = 0
-    while score < 3:
+    for i in range(SCORE_TO_WIN):
         correct_answer, question = game.get_game_data()
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
-        if type(correct_answer) == bool:
-            if not correct_answer:
-                correct_answer = 'no'
-            else:
-                correct_answer = 'yes'
         if answer == str(correct_answer):
-            score += 1
             print('Correct!')
         else:
             print(
@@ -26,6 +21,5 @@ def brain_main(game):
                 f"Let's try again, {name}!"
             )
             exit()
-    if score == 3:
-        print(f'Congratulations, {name}!')
-        exit()
+    print(f'Congratulations, {name}!')
+    exit()
