@@ -3,7 +3,7 @@ import prompt
 SCORE_TO_WIN = 3
 
 
-def brain_main(game):
+def start_brain_game(game):
     print("Welcome to the Brain Games!")
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')

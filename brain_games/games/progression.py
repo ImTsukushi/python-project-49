@@ -14,7 +14,7 @@ MAX_HIDDEN_INDEX = 9
 def make_progression(first_number, progression_step):
     progression = []
     for i in range(LENGTH):
-        progression.append(str(first_number))
+        progression.append(first_number)
         first_number += progression_step
     return progression
 
@@ -33,6 +33,6 @@ def get_game_data():
     progression_step = randint(MIN_PROGRESSION_STEP, MAX_PROGRESSION_STEP)
     progression = make_progression(first_number, progression_step)
     hidden_number, progression = make_hidden_number(progression)
-    correct_answer = hidden_number
-    question = ' '.join(progression)
+    correct_answer = str(hidden_number)
+    question = ' '.join(map(str, progression))
     return correct_answer, question
